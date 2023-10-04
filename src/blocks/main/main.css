@@ -8,3 +8,19 @@
 img {
   width: 55vw;
 }
+
+ul {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+li {
+  border: 4px dotted grey;
+}
+
+@media (max-width: 600px) {
+
+  img {
+    padding: 0 50px;
+  }
+}

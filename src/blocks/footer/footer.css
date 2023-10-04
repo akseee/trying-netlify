@@ -4,3 +4,10 @@ h6 {
   width: 100%;
   border: 1px dotted blue;
 }
+
+@media (max-width: 600px) {
+
+  h6 {
+    color: blueviolet;
+  }
+}
